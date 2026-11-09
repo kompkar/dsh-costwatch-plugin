@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "dshCostWatchPlugin",
+    "description": "Live DeepSeek spend, account credit, and cache hit rate in the Web status bar.",
+    "detail": "README.md"
+  }
+}

@@ -1,0 +1,4 @@
+# Bundle layer: one Host plugin that also carries the browser ticker half.
+- insert:
+    - id: dsh-costwatch-plugin
+      name: dsh-costwatch-plugin

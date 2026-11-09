@@ -1,0 +1,48 @@
+{
+  "name": "dsh-costwatch-plugin",
+  "version": "1.0.0",
+  "description": "Live DeepSeek spend, account credit, and cache hit rate ticker for the DSH Web status bar",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/usage.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "README.md",
+    "LICENSE",
+    "docs/ticker.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.2-rc.1",
+    "node": ">=20.3.0"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek",
+    "cost",
+    "usage",
+    "cache",
+    "ticker"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
